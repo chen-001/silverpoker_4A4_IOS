@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9F87D02D3ED2C300F04C6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F87CF2D3ED2C300F04C6F /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9F87B32D3ED2C300F04C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9F879A2D3ED2C200F04C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9F87A12D3ED2C200F04C6F;
+			remoteInfo = SilverPoker;
+		};
+		3C9F87BD2D3ED2C300F04C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9F879A2D3ED2C200F04C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9F87A12D3ED2C200F04C6F;
+			remoteInfo = SilverPoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C9F87A22D3ED2C200F04C6F /* SilverPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9F87B22D3ED2C300F04C6F /* SilverPokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverPokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9F87BC2D3ED2C300F04C6F /* SilverPokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverPokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9F87CF2D3ED2C300F04C6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3C9F87A42D3ED2C200F04C6F /* SilverPoker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SilverPoker;
+			sourceTree = "<group>";
+		};
+		3C9F87B52D3ED2C300F04C6F /* SilverPokerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SilverPokerTests;
+			sourceTree = "<group>";
+		};
+		3C9F87BF2D3ED2C300F04C6F /* SilverPokerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SilverPokerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9F879F2D3ED2C200F04C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9F87AF2D3ED2C300F04C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9F87B92D3ED2C300F04C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9F87992D3ED2C200F04C6F = {
+			isa = PBXGroup;
+			children = (
+				3C9F87A42D3ED2C200F04C6F /* SilverPoker */,
+				3C9F87B52D3ED2C300F04C6F /* SilverPokerTests */,
+				3C9F87BF2D3ED2C300F04C6F /* SilverPokerUITests */,
+				3C9F87A32D3ED2C200F04C6F /* Products */,
+				3CEC06132D3F442C005E65E1 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9F87A32D3ED2C200F04C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F87A22D3ED2C200F04C6F /* SilverPoker.app */,
+				3C9F87B22D3ED2C300F04C6F /* SilverPokerTests.xctest */,
+				3C9F87BC2D3ED2C300F04C6F /* SilverPokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CEC06132D3F442C005E65E1 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F87CF2D3ED2C300F04C6F /* Preview Assets.xcassets */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9F87A12D3ED2C200F04C6F /* SilverPoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9F87C62D3ED2C300F04C6F /* Build configuration list for PBXNativeTarget "SilverPoker" */;
+			buildPhases = (
+				3C9F879E2D3ED2C200F04C6F /* Sources */,
+				3C9F879F2D3ED2C200F04C6F /* Frameworks */,
+				3C9F87A02D3ED2C200F04C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3C9F87A42D3ED2C200F04C6F /* SilverPoker */,
+			);
+			name = SilverPoker;
+			packageProductDependencies = (
+			);
+			productName = SilverPoker;
+			productReference = 3C9F87A22D3ED2C200F04C6F /* SilverPoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C9F87B12D3ED2C300F04C6F /* SilverPokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9F87C92D3ED2C300F04C6F /* Build configuration list for PBXNativeTarget "SilverPokerTests" */;
+			buildPhases = (
+				3C9F87AE2D3ED2C300F04C6F /* Sources */,
+				3C9F87AF2D3ED2C300F04C6F /* Frameworks */,
+				3C9F87B02D3ED2C300F04C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9F87B42D3ED2C300F04C6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3C9F87B52D3ED2C300F04C6F /* SilverPokerTests */,
+			);
+			name = SilverPokerTests;
+			packageProductDependencies = (
+			);
+			productName = SilverPokerTests;
+			productReference = 3C9F87B22D3ED2C300F04C6F /* SilverPokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C9F87BB2D3ED2C300F04C6F /* SilverPokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9F87CC2D3ED2C300F04C6F /* Build configuration list for PBXNativeTarget "SilverPokerUITests" */;
+			buildPhases = (
+				3C9F87B82D3ED2C300F04C6F /* Sources */,
+				3C9F87B92D3ED2C300F04C6F /* Frameworks */,
+				3C9F87BA2D3ED2C300F04C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9F87BE2D3ED2C300F04C6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3C9F87BF2D3ED2C300F04C6F /* SilverPokerUITests */,
+			);
+			name = SilverPokerUITests;
+			packageProductDependencies = (
+			);
+			productName = SilverPokerUITests;
+			productReference = 3C9F87BC2D3ED2C300F04C6F /* SilverPokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9F879A2D3ED2C200F04C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3C9F87A12D3ED2C200F04C6F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3C9F87B12D3ED2C300F04C6F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3C9F87A12D3ED2C200F04C6F;
+					};
+					3C9F87BB2D3ED2C300F04C6F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3C9F87A12D3ED2C200F04C6F;
+					};
+				};
+			};
+			buildConfigurationList = 3C9F879D2D3ED2C200F04C6F /* Build configuration list for PBXProject "SilverPoker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9F87992D3ED2C200F04C6F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3C9F87A32D3ED2C200F04C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9F87A12D3ED2C200F04C6F /* SilverPoker */,
+				3C9F87B12D3ED2C300F04C6F /* SilverPokerTests */,
+				3C9F87BB2D3ED2C300F04C6F /* SilverPokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9F87A02D3ED2C200F04C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9F87D02D3ED2C300F04C6F /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9F87B02D3ED2C300F04C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9F87BA2D3ED2C300F04C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9F879E2D3ED2C200F04C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9F87AE2D3ED2C300F04C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9F87B82D3ED2C300F04C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9F87B42D3ED2C300F04C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9F87A12D3ED2C200F04C6F /* SilverPoker */;
+			targetProxy = 3C9F87B32D3ED2C300F04C6F /* PBXContainerItemProxy */;
+		};
+		3C9F87BE2D3ED2C300F04C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9F87A12D3ED2C200F04C6F /* SilverPoker */;
+			targetProxy = 3C9F87BD2D3ED2C300F04C6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C9F87C42D3ED2C300F04C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"SilverPoker/SilverPokerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C9F87C52D3ED2C300F04C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"SilverPoker/SilverPokerApp/Preview Content\"";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9F87C72D3ED2C300F04C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SilverPoker/SilverPokerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.chen-001.SilverPoker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C9F87C82D3ED2C300F04C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SilverPoker/SilverPokerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.chen-001.SilverPoker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C9F87CA2D3ED2C300F04C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.chen-001.SilverPokerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverPoker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SilverPoker";
+			};
+			name = Debug;
+		};
+		3C9F87CB2D3ED2C300F04C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.chen-001.SilverPokerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverPoker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SilverPoker";
+			};
+			name = Release;
+		};
+		3C9F87CD2D3ED2C300F04C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.chen-001.SilverPokerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilverPoker;
+			};
+			name = Debug;
+		};
+		3C9F87CE2D3ED2C300F04C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.chen-001.SilverPokerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilverPoker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9F879D2D3ED2C200F04C6F /* Build configuration list for PBXProject "SilverPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9F87C42D3ED2C300F04C6F /* Debug */,
+				3C9F87C52D3ED2C300F04C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9F87C62D3ED2C300F04C6F /* Build configuration list for PBXNativeTarget "SilverPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9F87C72D3ED2C300F04C6F /* Debug */,
+				3C9F87C82D3ED2C300F04C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9F87C92D3ED2C300F04C6F /* Build configuration list for PBXNativeTarget "SilverPokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9F87CA2D3ED2C300F04C6F /* Debug */,
+				3C9F87CB2D3ED2C300F04C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9F87CC2D3ED2C300F04C6F /* Build configuration list for PBXNativeTarget "SilverPokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9F87CD2D3ED2C300F04C6F /* Debug */,
+				3C9F87CE2D3ED2C300F04C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9F879A2D3ED2C200F04C6F /* Project object */;
+}
